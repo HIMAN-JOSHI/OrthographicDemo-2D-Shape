@@ -1,6 +1,5 @@
 // This program is a demo for orthographic projection using a 2D object (triangle).
 
-#include <iostream> // Anticipated to use C++ later (not used in this program)
 #include <stdio.h>  
 #include <stdlib.h> // for exit()
 #include <memory.h> // for memset()
@@ -12,9 +11,6 @@
 #include <GL/gl.h>
 #include <GL/glx.h> // for bridging-api
 #include <GL/glu.h> // for OpenGL
-
-//namespaces
-using namespace std; // Anticipated to use C++ later (not used in this program)
 
 //global variable declarations
 bool gbFullscreen=false;
@@ -127,7 +123,7 @@ int main(void){
 	}// while (bDone==false)
 	
 	uninitialize();
-	return(0); // Program never reached till this statement. Program exits from case 33.
+	return(0); 
 }
 
 void display(void){
